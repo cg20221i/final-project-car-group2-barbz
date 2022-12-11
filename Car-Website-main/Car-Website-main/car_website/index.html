@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.css" />
+
+
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <!-- Link Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Car Website </title>
+</head>
+
+<body>
+
+    <!-- Header/Navbar Start -->
+    <header>
+
+        <div id="MenuBtn" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>B</span>arbz</a>
+
+        <nav class="navbar">
+            <a href="#Home">Home</a>
+            <a href="#Vehicle">Vehicle</a>
+            <a href="#Featured">Featured</a>
+            <a href="#Services">Credits</a>
+            
+        </nav>
+
+        <div id="LoginBtn">
+            <button class="btn">Login</button>
+            <i class="fas fa-user"></i>
+        </div>
+
+
+
+    </header>
+    <!-- Header/Navbar End -->
+
+    <!-- Login Form Container/Popup -->
+    <div class="loginFormContainer">
+        <span id="CloseLoginForm" class="fas fa-times"></span>
+
+        <form action="">
+            <h3>User Login</h3>
+            <input type="email" placeholder="Email" required class="box">
+            <input type="password" placeholder="Password" required class="box">
+            
+            <button class="btn">Submit</button>
+          
+        
+        </form>
+
+    </div>
+    <!-- Login Form Container/Popup -->
+
+    <!-- Home Section Start -->
+    <section id="Home" class="home">
+        <h3 data-speed="-2" class="homeParallexEffect">Barb Cars</h3>
+        <img data-speed="5" class="homeParallexEffect" src="images/home.png" alt="">
+        <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+            
+        </head>
+        <body>
+            <div class="container">
+                <input type="button" onclick="window.location.href='https://www.instagram.com/?hl=en';" class="btn btn-warning btn-lg" value="Customize your car"/>
+            </div>
+    </section>
+    <!-- Home Section End -->
+
+  
+
+
+
+    <!-- Vehicle Section Start -->
+    <section id="Vehicle" class="vehicle">
+        <h1 class="heading">Popular Vehicles</h1>
+
+        <div class="swiper VehiclesSlider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle1.png" alt="">
+                    <div class="content">
+                        <h3>BMW X4</h3>
+                        <div class="price"><span>Price : </span>Rp. 500.000.00</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Automatic
+                            <span class="fas fa-circle"></span>Electric
+                            <span class="fas fa-circle"></span>200mph
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle2.png" alt="">
+                    <div class="content">
+                        <h3>Audi A6</h3>
+                        <div class="price"><span>Price : </span>Rp.600.000.000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Automatic
+                            <span class="fas fa-circle"></span>Electric
+                            <span class="fas fa-circle"></span>200mph
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/vehicle3.png" alt="">
+                    <div class="content">
+                        <h3>BMW X2</h3>
+                        <div class="price"><span>Price : </span>RP.400.500.000</div>
+                        <p>
+                            <span class="fas fa-circle"></span>2022
+                            <span class="fas fa-circle"></span>Automatic
+                            <span class="fas fa-circle"></span>Electric
+                            <span class="fas fa-circle"></span>200mph
+                        </p>
+                    </div>
+                </div>
+
+                
+               
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+
+        </div>
+
+
+    </section>
+    <!-- Vehicle Section End -->
+
+    <!-- Featured Section Start -->
+    <section id="Featured" class="feature">
+
+        <h1 class="heading">Featured Cars</h1>
+
+        <div class="swiper FeatureSlider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide box">
+                    <img src="images/car1.png" alt="">
+
+                    <div class="content">
+                        <h3>BMW X1</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">RP.300.000.00/-</div>
+                        
+
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="images/car2.jpg" alt="">
+
+                    <div class="content">
+                        <h3>BMW Y1</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">RP.250.000.000/-</div>
+                        
+                    </div>
+
+                </div>
+
+
+
+                <div class="swiper-slide box">
+                    <img src="images/car3.jpg" alt="">
+
+                    <div class="content">
+                        <h3>Audi A7</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">RP.575.000.000/-</div>
+                      
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="images/car4.jpg" alt="">
+
+                    <div class="content">
+                        <h3>Audi A8</h3>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="price">RP>200.000.000/-</div>
+                      
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+    
+
+    <!-- Service Section Start -->
+    <section id="Services" class="services">
+        
+
+        <div class="boxContainer">
+
+            <div class="box">
+                <i class="fas fa-car"></i>
+                <h3>Credits</h3>
+                <p>Hello there, we hope you enjoy viewing our website. Thank you for visiting our website to find your dream car. 
+                    We hope you have a fantastic experience by visiting our website. Thank you very much.</p>
+                
+            </div>
+
+         
+        </div>
+
+    </section>
+    <!-- Service Section End -->
+
+ 
+   
+
+
+    <!-- Footer Start -->
+    <footer>
+        <a href="#">&copy; Group 2 Barbz</a>
+    </footer>
+    <!-- Footer end -->
+
+    <!-- Theme Toggle  -->
+    <div class="themeToggle">
+
+        <div class="ToggleBtn">
+            <i class="fas fa-cog"></i>
+        </div>
+
+
+        <h3>Choose Color</h3>
+        <div class="buttons">
+
+            <div class="themeBtn" style="background: #0011ff;"></div>
+            <div class="themeBtn" style="background: #ffb404;"></div>
+            <div class="themeBtn" style="background: #2bff00;"></div>
+            <div class="themeBtn" style="background: #fc00dbe6;"></div>
+            <div class="themeBtn" style="background: #cb5805;"></div>
+            <div class="themeBtn" style="background: #ff041d;"></div>
+
+        </div>
+
+
+
+    </div>
+    <!-- Theme Toggle  -->
+
+
+
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"></script>
+    <!-- Script For JS -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
