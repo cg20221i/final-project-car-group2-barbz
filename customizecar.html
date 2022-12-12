@@ -11,21 +11,29 @@
 </head>
 <body>
 
+    <!--Home Button-->
+     <body>
+        <initial-scale=3.0" />
+            <div id="MainPageBtn">
+                <button class="btn" onclick="location.href='index.html'">Main Page</button>
+            </div>
+
+    <!--Home Button-->
+
 <!--Car Animation-->
     <script src="three.js"> </script>
     <script type="module" src="GLTFLoader.js"> </script>
     <script type="module">
 
-    
 
         import{GLTFLoader} from "./GLTFLoader.js";
 
         var scene = new THREE.Scene();
 
         var camera = new THREE.PerspectiveCamera(
-            75,
+            70,
             window.innerWidth / window.innerHeight,
-            0.01,
+            0.02,
             1000
         );
         var renderer = new THREE.WebGLRenderer();
@@ -49,26 +57,12 @@
             obj.rotation.y += 0.01;
             renderer.render(scene,camera);
         }
+        
 
         animate();
     </script>
     <!--Car Animation-->
 
-    <!--Header-->
-    <header>
-        <div id="MenuBtn" class="fas fa-bars"></div>
-
-        <a href="#" class="logo"><span>B</span>arbz</a>
-
-        <nav class="navbar">
-            <a href="#Home">Home</a>
-            <a href="#Select Body Color">Select Body Color</a>
-            <a href="#Select Body Color">Select Rim Color</a>
-            <a href="#Sound">Audio</a>
-
-    </nav>
-    </header>
-    <!--Header-->   
 
 
 
